@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ini adalah website pertama e commerce saya.">
+    <meta property="og:title" content="E Commerce">
+    <meta property="og:image" content="https://1drv.ms/i/s!AvhFPdw1MMA2nRI4ZcBa5aQebyO8?e=SV6QzP">
+    <link rel="icon" href="https://img.freepik.com/free-vector/bird-colorful-logo-gradient-vector_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.2008272138.1725062400&semt=ais_hybrid" type="image/png">
+    <title>E Commerce Website</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/media-query.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <p class="title-ecommerce">E-Commerce</p>
+        <nav>
+            <a href="#home" class="nav-link1">Beranda
+                <hr>
+            </a>
+            <a href="#product" class="nav-link2">Produk
+                <hr>
+            </a>
+            <a href="#services" class="nav-link3">Layanan
+                <hr>
+            </a>
+        </nav>
+
+        <div class="hamburger-btn" id="hamburger-btn" name="hamburger">
+            <span class="material-symbols-outlined">
+                sort
+            </span>
+        </div>
+        <!-- close btn -->
+        <div class="close-btn" id="close-btn">
+            <span class="material-symbols-outlined">
+                close
+            </span>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <div class="home" id="home">
+
+            <div class="design-home-1"></div>
+            <div class="design-home-2"></div>
+
+            <div class="container-home-description">
+                <h1>E Commerce</h1>
+                <p id="typing"></p>
+            </div>
+
+        </div>
+        <div class="product" id="product">
+            <div class="container-product">
+                <div class="card-product">
+                    <img src="asset/product1.png" alt="">
+                    <h3 class="title-product">Produk 1</h3>
+                    <p class="price-product">Harga</p>
+                    <button class="btn-buy" id="btn-buy" data-product="product1">Beli Sekarang</button>
+                </div>
+
+                <div class="card-product">
+                    <img src="asset/product2.png" alt="">
+                    <h3 class="title-product">Produk 2</h3>
+                    <p class="price-product">Harga</p>
+                    <button class="btn-buy" id="btn-buy" data-product="product2">Beli Sekarang</button>
+                </div>
+
+                <div class="card-product">
+                    <img src="asset/product3.png" alt="">
+                    <h3 class="title-product">Produk 3</h3>
+                    <p class="price-product">Harga</p>
+                    <button class="btn-buy" data-product="product3">Beli Sekarang</button>
+                </div>
+
+                <div class="card-product">
+                    <img src="asset/product4.png" alt="">
+                    <h3 class="title-product">Produk 4</h3>
+                    <p class="price-product">Harga</p>
+                    <button class="btn-buy" data-product="product4">Beli Sekarang</button>
+                </div>
+
+                <div class="card-product">
+                    <img src="asset/product5.png" alt="">
+                    <h3 class="title-product">Produk 5</h3>
+                    <p class="price-product">Harga</p>
+                    <button class="btn-buy" data-product="product5">Beli Sekarang</button>
+                </div>
+
+                <div class="card-product">
+                    <img src="asset/product6.png" alt="">
+                    <h3 class="title-product">Produk 6</h3>
+                    <p class="price-product">Harga</p>
+                    <button class="btn-buy" data-product="product6">Beli Sekarang</button>
+                </div>
+
+                <div class="card-product">
+                    <img src="asset/product7.png" alt="">
+                    <h3 class="title-product">Produk 7</h3>
+                    <p class="price-product">Harga</p>
+                    <button class="btn-buy" data-product="product7">Beli Sekarang</button>
+                </div>
+
+                <div class="card-product">
+                    <img src="asset/product8.png" alt="">
+                    <h3 class="title-product">Produk 8</h3>
+                    <p class="price-product">Harga</p>
+                    <button class="btn-buy" data-product="product8">Beli Sekarang</button>
+                </div>
+
+                <div class="card-product">
+                    <img src="asset/product9.png" alt="">
+                    <h3 class="title-product">Produk 9</h3>
+                    <p class="price-product">Harga</p>
+                    <button class="btn-buy" data-product="product9">Beli Sekarang</button>
+                </div>
+
+                <div class="card-product">
+                    <img src="asset/product10.png" alt="">
+                    <h3 class="title-product">Produk 10</h3>
+                    <p class="price-product">Harga</p>
+                    <button class="btn-buy" data-product="product10">Beli Sekarang</button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="services" id="services">
+
+            <div class="container-services">
+                <div class="card-services">
+                    <img src="asset/services1.png" alt="">
+                    <h3 class="title-services">Service 1</h3>
+                    <p class="price-services">Price</p>
+                    <p class="desc-services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatum.
+                    </p>
+                    <button class="btn-services" onclick="serviceNow()">Ayo Pakai Layanan Kami</button>
+                </div>
+
+                <div class="card-services">
+                    <img src="asset/services2.png" alt="">
+                    <h3 class="title-services">Service 2</h3>
+                    <p class="price-services">Price</p>
+                    <p class="desc-services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatum.
+                    </p>
+                    <button class="btn-services">Ayo Pakai Layanan Kami</button>
+                </div>
+
+                <div class="card-services">
+                    <img src="" alt="">
+                    <h3 class="title-services">Service 3</h3>
+                    <p class="price-services">Price</p>
+                    <p class="desc-services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatum.
+                    </p>
+                    <button class="btn-services">Ayo Pakai Layanan Kami</button>
+                </div>
+
+                <div class="card-services">
+                    <img src="" alt="">
+                    <h3 class="title-services">Service 4</h3>
+                    <p class="price-services">Price</p>
+                    <p class="desc-services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatum.
+                    </p>
+                    <button class="btn-services">Ayo Pakai Layanan Kami</button>
+                </div>
+
+                <div class="card-services">
+                    <img src="" alt="">
+                    <h3 class="title-services">Service 5</h3>
+                    <p class="price-services">Price</p>
+                    <p class="desc-services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatum.
+                    </p>
+                    <button class="btn-services">Ayo Pakai Layanan Kami</button>
+                </div>
+
+                <div class="card-services">
+                    <img src="" alt="">
+                    <h3 class="title-services">Service 6</h3>
+                    <p class="price-services">Price</p>
+                    <p class="desc-services">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatum.
+                    </p>
+                    <button class="btn-services">Ayo Pakai Layanan Kami</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- footer -->
+        <footer>
+            <div class="container-footer">
+                <div class="container-footer-desc">
+                    <h1 class="title-footer">E-Commerce</h1>
+                    <p class="desc-footer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, voluptatum.
+                    </p>
+                </div>
+                <div class="container-footer-list">
+                    <h1 class="title-list-footer">Peta Situs</h1>
+                    <hr>
+                    <a href="" class="link-footer">Beranda</a>
+                    <a href="" class="link-footer">Produk</a>
+                    <a href="" class="link-footer">Layanan</a>
+                </div>
+
+                <div class="container-footer-list">
+                    <h1 class="title-list-footer">Sosial Media</h1>
+                    <hr>
+                    <a href="" class="link-footer">Youtube</a>
+                    <a href="" class="link-footer">Instagram</a>
+                    <a href="" class="link-footer">Facebook</a>
+                    <a href="" class="link-footer">Twitter</a>
+                    <a href="" class="link-footer">TikTok</a>
+                </div>
+
+                <div class="container-footer-list">
+                    <h1 class="title-list-footer">Legalitas</h1>
+                    <hr>
+                    <a href="" class="link-footer">Syarat & Ketentuan</a>
+                    <a href="" class="link-footer">Kebijakan Privasi</a>
+                </div>
+
+                <div class="container-footer-list">
+                    <h1 class="title-list-footer">Kontak Kami</h1>
+                    <hr>
+                    <a href="" class="link-footer">Email</a>
+                    <a href="" class="link-footer">WhatsApp</a>
+                </div>
+            </div>
+
+            <p class="copyright-footer">Copyright © 2022 E-Commerce. All rights reserved.</p>
+        </footer>
+    </main>
+
+    <!-- sidebar container -->
+    <div class="sidebar-container" id="sidebar-container">
+        <a href="#home" class="nav-link1">Home</a>
+        <a href="#product" class="nav-link2">Product</a>
+        <a href="#services" class="nav-link3">Services</a>
+    </div>
+
+    <!-- checkout -->
+    <div class="container-checkout" id="container-checkout">
+    </div>
+
+    <!-- container notification -->
+    <div class="container-notification" id="container-notification"></div>
+
+    <!-- qr code -->
+     <div
+     class="container-qr-code"
+     id="container-qr-code"
+     style="display: none">
+    </div>
+
+    <!-- cs -->
+    <button class="container-cs" onclick="customerService()"><span
+            class="material-symbols-outlined">support_agent</span>
+        <div class="bubble-chat-cs">Customer Service</div>
+    </button>
+
+    <!-- script -->
+    <script src="JS/script.js"></script>
+
+</body>
+
+</html>
