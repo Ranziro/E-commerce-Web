@@ -1,0 +1,241 @@
+@media screen and (max-width: 768px) {
+
+
+
+    .home {
+
+        height: 100vh;
+
+    }
+
+
+
+    header {
+
+        width: 100%;
+
+    }
+
+
+
+    .title-ecommerce {
+
+        left: 2.5%;
+
+    }
+
+
+
+    nav .nav-link1,
+
+    nav .nav-link2,
+
+    nav .nav-link3 {
+
+        display: none;
+
+    }
+
+
+
+    nav {
+
+        right: 15%;
+
+    }
+
+
+
+    .container-home-description {
+
+        left: 2.5%;
+
+        width: 95%;
+
+    }
+
+
+
+    .container-product {
+
+        width: 100%;
+
+    }
+
+
+
+    .card-product {
+
+        width: 45%;
+
+        height: auto;
+
+    }
+
+
+
+    .card-product img {
+
+        height: 170px;
+
+    }
+
+
+
+    .container-services {
+
+        width: 95%;
+
+        padding-left: 5px;
+
+        padding-right: 5px;
+
+    }
+
+
+
+    .card-services {
+
+        width: 100%;
+
+        height: auto;
+
+    }
+
+
+
+    .card-services img {
+
+        height: 200px;
+
+    }
+
+
+
+    .container-footer {
+
+        width: 95%;
+
+    }
+
+
+
+    .container-footer-desc {
+
+        width: 100%;
+
+    }
+
+
+
+    .container-footer-list:nth-child(3) {
+
+        margin-left: 9%;
+
+    }
+
+
+
+    .copyright-footer {
+
+        width: 95%;
+
+    }
+
+
+
+    #hamburger-btn {
+
+        display: block;
+
+        position: absolute;
+
+    }
+
+
+
+    #close-btn {
+
+        position: absolute;
+
+    }
+
+
+
+    .sidebar-container {
+
+        z-index: 1;
+
+        flex-direction: column;
+
+    }
+
+
+
+    .sidebar-container .nav-link1,
+
+    .sidebar-container .nav-link2,
+
+    .sidebar-container .nav-link3 {
+
+        width: 100%;
+
+        height: 50px;
+
+        display: flex;
+
+        justify-content: center;
+
+        border-bottom: 3px solid transparent;
+
+    }
+
+
+
+    .container-cs {
+
+        z-index: 2;
+
+        width: 45px;
+
+        height: 45px;
+
+        right: 2.5%;
+
+    }
+
+
+
+    .container-cs span {
+
+        font-size: 30px;
+
+    }
+
+
+
+    .bubble-chat-cs {
+
+        color: rgb(0, 0, 0);
+
+        bottom: 55px;
+
+        right: 0;
+
+        width: 100px;
+
+        height: 25px;
+
+        font-size: 12px;
+
+    }
+
+
+
+    .container-checkout {
+
+        width: 75%;
+
+    }
+
+}
