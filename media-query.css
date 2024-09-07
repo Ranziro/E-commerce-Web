@@ -238,4 +238,17 @@
 
     }
 
+    .btn-buy:active {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) {
+    .btn-buy:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    }
 }
