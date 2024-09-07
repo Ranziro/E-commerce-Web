@@ -270,11 +270,6 @@ main {
     cursor: pointer;
 }
 
-.btn-buy:hover {
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
-
 .services {
     position: relative;
     width: 100%;
